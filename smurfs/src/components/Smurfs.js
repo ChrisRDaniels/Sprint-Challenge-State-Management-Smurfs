@@ -22,4 +22,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps, { getSmurfs, deleteSmurf })(Smurfs)
+export default connect(mapStateToProps, { getSmurfs, deleteSmurf })(Smurfs);
