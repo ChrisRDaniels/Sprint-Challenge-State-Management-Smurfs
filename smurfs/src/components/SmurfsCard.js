@@ -5,7 +5,7 @@ import { beginEdit, submitEdit } from '../actions'
 function SmurfsCard(props) {
   if (!props.isEditing) {
     return (
-      <div>
+      <div className= "smurf-card">
         <h2>{props.item.name}</h2>
         <p>Age: {props.item.age}</p>
         <p>Height: {props.item.height}</p>

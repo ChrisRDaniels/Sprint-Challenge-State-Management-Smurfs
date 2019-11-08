@@ -4,7 +4,7 @@ import { getSmurfs, deleteSmurf } from '../actions'
 import SmurfsCard from './SmurfsCard'
 
 function Smurfs(props) {
-    useEffect(() => props.getSmurfs(), [])
+    useEffect(() => props.getSmurfs(), [] )
     return (
         <div>
             <button onClick={props.getSmurfs}>Get Smurfs</button>
