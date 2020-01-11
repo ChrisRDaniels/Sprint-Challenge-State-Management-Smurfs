@@ -60,9 +60,28 @@ button:active {
 	top:1px;
 }
 
+.smurf-card button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+  display:inline-block;
+  width: 200px;
+	cursor:pointer;
+	color:#666666;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+  padding:5px 10px;
+  margin: 5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
 input { 
   display: inline-block;
-  border-width:2px; 
+  border-width:1px; 
   padding:3px;
   margin: 5px; 
   font-size:15px; 
@@ -96,10 +115,12 @@ p{
 .smurf-card {
 border: 2px solid #666666;
 margin: 15px auto;
+background-color: azure ;
 padding-bottom: 15px;
-width: 600px;
+width: 500px;
 max-width: 800px;
 border-radius:25px;
+opacity: .8;
 }
 
 form {
@@ -107,4 +128,11 @@ form {
   flex-direction: column;
   justify-content: center;
 }
-		 
+     
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-weight:bold; 
+  font-size:2.5rem;
+  font-style: oblique;
+  text-decoration: underline;
+}
